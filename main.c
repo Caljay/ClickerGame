@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Buildings.h"
+#include "buildings.h"
 #include "Gameloop.h"
 
 
@@ -19,7 +19,7 @@ int main(void){
 
 welcome(); //welcomes the user
 
-//Gameloop(); //bulk of the game
+Gameloop(); //bulk of the game
 
 
 

@@ -1,10 +1,14 @@
+ #include "buildings.h"
  
+ #include <stdlib.h>
+
+
 typedef struct{
 
 int coinsPer;
 int costPer;
 int amount;
-char* name
+char* name;
 
 
 } Building;

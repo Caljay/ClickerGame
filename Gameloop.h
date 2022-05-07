@@ -2,6 +2,7 @@
 
 #define GAMELOOP_H
 
-void Gameloop(void);
+int coins;
+void Gameloop();
 
 #endif

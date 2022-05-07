@@ -1,5 +1,9 @@
+#include "Gameloop.h"
+
 #include <stdio.h>
-#include "Buildings.h"
+#include <stdlib.h>
+
+#include "buildings.h"
 
 int coins = 0;
 

@@ -7,6 +7,7 @@ int costPer;
 int amount;
 char* name; 
 } Building;
+
 Building* intialize(void);
 
 #endif 
