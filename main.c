@@ -1,25 +1,25 @@
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 
-int coins = 0;
+#include "Buildings.h"
+#include "Gameloop.h"
+
+
+void welcome(void){
+printf("Welcome to Clicker Game\n");
+getchar();
+system("cls\n");
+printf("Coins: %d\n", 0);
+
+}
+
+
 int main(void){
 
-char inputChar;
-printf("Welcome to Clicker Game\n");
 
-while(1){
+welcome(); //welcomes the user
 
-scanf("%c", &inputChar);
-
-
-if(inputChar == 'a'){
-coins++;
-printf("Coins: %d\n", coins);
-
-inputChar = 0;
-}
-
-}
+//Gameloop(); //bulk of the game
 
 
 
