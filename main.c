@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "buildings.h"
-#include "Gameloop.h"
 
+#include "main2.h"
 
 void welcome(void){
 printf("Welcome to Clicker Game\n");
@@ -19,7 +18,8 @@ int main(void){
 
 welcome(); //welcomes the user
 
-Gameloop(); //bulk of the game
+CallMe(); //bulk of the game
+
 
 
 

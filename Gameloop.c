@@ -3,13 +3,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "buildings.h"
+
 
 int coins = 0;
 
 void Gameloop(void){
 
-Building* allBuildings = intialize();
+//Building* allBuildings = intialize();
 
 char inputChar;
 

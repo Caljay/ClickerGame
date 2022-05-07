@@ -1,13 +1,10 @@
-#ifndef BUILDINGS_H
+#ifndef MAIN2_H
 
-#define BUILDINGS_H
-typedef struct{ 
-    int coinsPer;
-int costPer;
-int amount;
-char* name; 
-} Building;
+#define MAIN2_H
 
-Building* intialize(void);
 
-#endif 
+
+
+
+
+#endif
