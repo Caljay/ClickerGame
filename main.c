@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 #include "Gameloop.h"
 
 void welcome(void){
+    system("cls\n");
 printf("Welcome to Clicker Game\n");
-getchar();
-system("cls\n");
-printf("Coins: %d\n", 0);
+
 
 }
 
@@ -17,9 +17,7 @@ int main(void){
 
 welcome(); //welcomes the user
 
-Gameloop();
-
-
+StartGame();
 
 getchar();
 return 0;

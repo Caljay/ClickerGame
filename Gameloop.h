@@ -1,10 +1,11 @@
 #ifndef GAMELOOP_H
 
+#include "buildings.h"
 #define GAMELOOP_H
 
 
-void Gameloop();
-
+void MainLoop(Building*);
+void StartGame();
 
 
 
